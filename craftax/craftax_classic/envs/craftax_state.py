@@ -71,7 +71,7 @@ class EnvState:
 
     timestep: int
 
-    fractal_noise_angles: tuple[int, int, int, int] = (None, None, None, None)
+    fractal_noise_angles: Tuple[int, int, int, int] = (None, None, None, None)
 
 
 @struct.dataclass
@@ -92,7 +92,7 @@ class EnvParams:
     spawn_zombie_night_chance: float = 0.1
     spawn_skeleton_chance: float = 0.05
 
-    fractal_noise_angles: tuple[int, int, int, int] = (None, None, None, None)
+    fractal_noise_angles: Tuple[int, int, int, int] = (None, None, None, None)
 
 
 @struct.dataclass

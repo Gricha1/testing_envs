@@ -105,7 +105,7 @@ class EnvState:
 
     timestep: int
 
-    fractal_noise_angles: tuple[int, int, int, int] = (None, None, None, None)
+    fractal_noise_angles: Tuple[int, int, int, int] = (None, None, None, None)
 
 
 @struct.dataclass
@@ -120,7 +120,7 @@ class EnvParams:
 
     god_mode: bool = False
 
-    fractal_noise_angles: tuple[int, int, int, int] = (None, None, None, None)
+    fractal_noise_angles: Tuple[int, int, int, int] = (None, None, None, None)
 
 
 @struct.dataclass
